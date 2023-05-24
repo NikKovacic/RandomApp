@@ -1,7 +1,7 @@
 
 ## Next steps
 
-- Create service for SMS Logic (it should check based on a counter which gateway/provider it must return).
+- Create service for SMS Logic (it should check based on a counter value which gateway/provider should return).
 - Create form (modal) which POST message body to notify method inside LegalPersonController, GroupController (in this method use created SMS service to define gateway/provider in RandomNotification.).
 - Create blades, routes, controller methods for NaturalPerson (new service PersonService, could be created for some methods that are same or similar to methods in LegalPersonController).
 - Add onCascadeDelete to groupables table (if person is deleted there should not be record of it in DB)!
